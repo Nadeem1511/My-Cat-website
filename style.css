@@ -4,7 +4,8 @@ body{
     background-color: #F69680;
     color: #2E1263;
     font-family: Source Sans Pro;
-    font-weight: 300;
+    font-weight: 100;
+
 }
 
 h1{
@@ -15,7 +16,7 @@ h1{
 }
 
 img{
-    width: 1000px;
+    width: 500px;
     border-radius: 50%;
 }
 
@@ -53,6 +54,33 @@ p{
     font-size: 30px;
 }
 
-b{
-    font-weight: 500;
+
+span{
+    font-weight: 200;
+    text-decoration: underline;
 }
+
+/* Responsive */
+
+@media screen and (max-width:600px) {
+    h1{
+        font-size: 25px;
+        border-top: 1px solid;
+    }    
+
+    img{
+        width: 300px;
+    }
+
+    button{
+        margin: 15px auto 0;
+        padding: 8px 12px;
+        letter-spacing: 1.5px;
+        font-size: 11.5px;
+    }
+
+    p{
+        font-size: 13px;
+    }
+}
+
